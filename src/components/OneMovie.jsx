@@ -19,11 +19,9 @@ const OneMovie = (props) => {
     }
     setOneMovie(false)
     searchSpecificMovie(movieID).then((data) => {
-      console.log(data, "data")
       setResults(data);
     });
   }
-console.log(results, "results")
   return(
     <div className={style.movieList}>
       {

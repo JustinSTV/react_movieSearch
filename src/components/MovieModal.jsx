@@ -3,10 +3,8 @@ import style from './MovieModal.module.css'
 
 
 const MovieModal = ({closeModal, oneMovie}) => {
- 
-  console.log(oneMovie, "onemovie");
 
-  
+
   return (
     <div className={style.modalBack}>
       <div className={style.modalContainer}>
