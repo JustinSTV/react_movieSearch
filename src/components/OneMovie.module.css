@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Avestan&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #1d3557;
+}
+
+.movieList{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.oneMovie{
+  background-color: #457b9d;
+  outline: 2px solid white;
+  width: 350px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.oneMovie h2{
+  font-size: 1.2rem;
+  padding: 15px;
+  font-family: 'Noto Sans Avestan', sans-serif;
+}
+
+.moreBtn{
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: medium;
+  border: none;
+  font-family: 'Noto Sans Avestan', sans-serif;
+}
+
+img{
+  border-radius: 20px;
+  height: 370px;
+  width: 250px;
+}
